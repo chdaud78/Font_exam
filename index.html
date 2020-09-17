@@ -1,13 +1,88 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Font_exam</title>
-        <meta charset = "utf-8">
-        <meta name = "viewport" content = "width = device-width, initial-scale = 1">
-    </head>
-    <body>
-        <p>
-            hello
-        </p>
-    </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Font_exam</title>
+    <script src="function.js" defer></script>
+</head>
+<style>
+     body{
+        margin:0px;
+    }
+    #main{
+        width:100%;
+        height:100%;
+    }
+    #title{
+        width:100%;
+        height:70px;
+        float:left;
+        background-color: #263343;
+        color: white;
+    }
+
+    h1{
+        margin:10px;
+        margin-left:100px;
+    }
+
+    #menu{
+        width:100%;
+        height: 70px;
+        float:left;
+    }
+
+    #menubar{
+        list-style: none;
+    }
+    
+    #menu li{
+        float: left;
+        position: relative;
+        margin: 5px 30px;
+        padding: 0px;
+    }
+    #search{
+        border-radius :40px;
+        border-width:1px;
+        padding: 4px;
+    }
+
+    
+    #Fontsection{
+        width: 100%;
+        height: 70px;
+        margin-top:10px;
+        float:left;
+    }
+</style>
+
+<body>
+    <div id  = main>
+        <div id = title>
+            <h1>Font</h1>
+        </div>
+        <div id = menu>
+            <ul id = menubar>
+                <li>
+                    <input onkeyup = "filter()" type = "text" id= "search" placeholder="Search">
+                </li>
+                <li>
+                    <input type = "range" name="Font_size_chage" min="8" max="300" step="2" value="8" oninput = "document.getElementsByClassName('');">
+                </li>
+            </ul>
+        </div>
+        <div id = Font_section>
+            <section class="Fonts">
+                <div class = "Fonts_name">
+                    <h1>roboto</h1>
+                </div>
+                
+            </section>
+
+        
+        </div>
+    </div>
+</body>
 </html>
