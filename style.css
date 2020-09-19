@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ranchers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nanum+Gothic:wght@400;700;800&family=Noto+Sans+JP:wght@100;300;400;500;700;900&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+input, textarea, button {
+    outline: 0;
+}
+
+header {
+    border-bottom: 1px solid rgba(0,0,0,0.14);
+    padding: 10px;
+}
+
+header h1 {
+    color: rgba(0,0,0,.6);
+    font-size: 20px;
+}
+
+header h1 span {
+    font-weight: normal;
+}
+
+#main {
+    padding: 15px;
+}
+
+#menu {
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.menu-container {
+    float: left;
+    padding: 10px;
+}
+
+.input-text {
+    padding: 10px 20px;
+
+    font-size: 16px;
+    color: rgb(60, 64, 67);
+
+    border: 1px solid rgba(0,0,0,0.24);
+    border-radius: 20px;
+}   
+
+.input-select {
+    padding: 10px 20px;
+
+    font-size: 16px;
+    color: rgb(60, 64, 67);
+
+    border: 1px solid rgba(0,0,0,0.24);
+    border-radius: 20px;
+}
+
+.input-select #sync {
+    display: none;
+}
+
+.input-range {
+    width: 240px;
+    padding: 10px 0;
+}
+
+
+/*
+font-family: 'Roboto', sans-serif;
+font-family: 'Noto Sans KR', sans-serif;
+font-family: 'Ranchers', cursive;
+*/
+
+#content {
+    margin-top: 20px;
+}
+
+#preview {
+    overflow: hidden;
+
+    max-width: 1370px;
+    margin: 0 auto;
+}
+
+.preview-item-container {
+    margin: 10px;
+    padding: 10px;
+
+    width: 300px;
+    min-height: 300px;
+
+    border-radius: 10px;
+    border: 1px solid rgba(0,0,0,0.24);
+
+    float: left;
+}
+
+.preview-item-container .title {
+    overflow: hidden;
+}
+
+.preview-item-container .title h6 {
+    float: left;
+
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+}
+
+.preview-item-container .title button {
+    float: right;
+
+    font-size: 11px;
+    padding: 2px 12px;
+
+    background-color: #eeeeee;
+
+    border: 1px solid gray;
+    border-radius: 8px;
+}
+
+.preview-item-container .description {
+    margin-top: 4px;
+}
+
+.preview-item-container .description p {
+    font-size: 13px;
+    color: gray;
+}
+
+.preview-item-container .example {
+    margin-top: 20px;
+}
+
+.preview-item-container .example p {
+    font-size: 40px;
+
+    word-break: break-all;
+}
+
+#download {
+    position: fixed;
+    right: -320px;
+    top: 0;
+
+    width: 300px; /* 300px */
+    height: 100vh;
+    padding: 10px;
+    
+    background-color: white;
+    transition: right 1s;
+
+    z-index: 10;
+
+    border-left: 1px solid rgba(0,0,0,0.24);
+}
+
+#download h5 {
+    font-size: 30px;
+    color: gray;
+}
+
+#download .embed h6 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#download .embed p {
+    background-color: rgba(0,0,0,.08);
+
+    margin-top: 20px;  
+    padding: 10px;
+
+    word-break: break-all;
+}
+
+#download .css {
+    margin-top: 30px;
+}
+
+#download .css h6 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#download .css p {
+    background-color: rgba(0,0,0,.08);
+
+    margin-top: 20px;
+    padding: 10px;
+
+    word-break: break-all;
+}
