@@ -22,7 +22,7 @@ function drawPreviewContainers() {
                 + '<button onclick="selectFont(event, ' + idx +' )">선택</button>'
             + '</div>'
            + '<div class="description">'
-                + '<p>${font.description}<p>'
+                + '<p>' + font.description + '<p>'
            + '</div>'
             + '<div class="example" style="font-family: ' + font.style + '">'
                 +'<p>' + defaultPreviewText + '</p>'
